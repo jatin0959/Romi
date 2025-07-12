@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, TrendingUp, Shield, Zap } from 'lucide-react';
+import { Users, TrendingUp, Shield, Zap, Rocket, Lock, Wrench } from 'lucide-react';
 
 const AboutComponent = () => {
   return (
@@ -71,6 +71,49 @@ const AboutComponent = () => {
               <div className="text-4xl font-bold text-gray-900 mb-2">24/7</div>
               <div className="text-lg font-semibold text-gray-800 mb-2">Support Available</div>
               <div className="text-gray-600">Round-the-clock assistance</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Why Choose Laitusnao Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-900 mb-12">Why Choose Laitusnao?</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Innovation First */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Rocket className="w-8 h-8 text-red-600" />
+              </div>
+              <div className="text-xl font-bold text-gray-900 mb-4">Innovation First</div>
+              <div className="text-gray-600">Cutting-edge technology solutions built for the future of finance</div>
+            </div>
+
+            {/* Trust & Security */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Lock className="w-8 h-8 text-yellow-600" />
+              </div>
+              <div className="text-xl font-bold text-gray-900 mb-4">Trust & Security</div>
+              <div className="text-gray-600">Bank-grade security with full regulatory compliance</div>
+            </div>
+
+            {/* Seamless Integration */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Wrench className="w-8 h-8 text-cyan-600" />
+              </div>
+              <div className="text-xl font-bold text-gray-900 mb-4">Seamless Integration</div>
+              <div className="text-gray-600">Easy-to-use APIs that integrate with your existing systems</div>
+            </div>
+
+            {/* Lightning Fast */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Zap className="w-8 h-8 text-yellow-600" />
+              </div>
+              <div className="text-xl font-bold text-gray-900 mb-4">Lightning Fast</div>
+              <div className="text-gray-600">Process transactions in milliseconds with real-time notifications</div>
             </div>
           </div>
         </div>
