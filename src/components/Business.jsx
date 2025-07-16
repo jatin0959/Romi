@@ -58,7 +58,7 @@ export default function BusinessBankingLanding() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Call Us</h3>
             <p className="text-white/80 mb-4">Speak with our experts</p>
-            <p className="text-lg font-semibold">+91 9876543210</p>
+            <p className="text-lg font-semibold">+91 8265915605</p>
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/15 transition-all duration-300 border border-white/20">
@@ -67,7 +67,7 @@ export default function BusinessBankingLanding() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Email Us</h3>
             <p className="text-white/80 mb-4">Get detailed information</p>
-            <p className="text-lg font-semibold">info@laituseneo.com</p>
+            <p className="text-lg font-semibold">letstalk@laituseneo.com</p>
           </div>
         </div>
 

@@ -29,15 +29,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">info@laitusneo.com</span>
+                <span className="text-sm">letstalk@laitusneo.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">+91 9876543210</span>
+                <span className="text-sm">+91 8265915605</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-blue-400" />
-                <span className="text-sm">Bangalore, Karnataka, India</span>
+                <span className="text-sm">Nh 2, shanti colony, Etawah, Uttar Pradesh - 206001</span>
               </div>
             </div>
           </div>

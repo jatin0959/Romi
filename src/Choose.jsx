@@ -67,7 +67,7 @@ const LaitusneaLanding = () => {
 
   const stats = [
     { number: "500+", label: "Active Clients", color: "text-blue-600" },
-    { number: "£1000Cr+", label: "Processed", color: "text-green-600" },
+    { number: "₹1000Cr+", label: "Processed", color: "text-green-600" },
     { number: "99.9%", label: "Uptime", color: "text-purple-600" },
     { number: "24/7", label: "Support", color: "text-orange-600" }
   ];

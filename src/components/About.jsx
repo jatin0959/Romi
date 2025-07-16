@@ -8,7 +8,7 @@ const AboutComponent = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            About Laitusnao Technologies
+            About Laitusneo Technologies
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -18,7 +18,7 @@ const AboutComponent = () => {
           
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-600 leading-relaxed">
             <p>
-              At Laitusnao Technologies Private Limited, we're revolutionizing B2B financial infrastructure by 
+              At Laitusneo Technologies Private Limited, we're revolutionizing B2B financial infrastructure by 
               making complex banking operations simple, secure, and scalable.
             </p>
             <p>
@@ -77,7 +77,7 @@ const AboutComponent = () => {
 
         {/* Why Choose Laitusnao Section */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-12">Why Choose Laitusnao?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-12">Why Choose Laitusneo?</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Innovation First */}
